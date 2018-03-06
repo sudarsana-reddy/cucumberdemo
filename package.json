@@ -32,7 +32,7 @@
     "typescript": "^2.7.2"
   },
   "scripts": {
-    "test": "protractor protractor.conf.js"
+    "test": "protractor ./target/protractor.conf.js"
   },
   "author": "",
   "license": "ISC",
