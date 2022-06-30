@@ -5,4 +5,9 @@ on: [workflow_dispatch]
 
 jobs:
   build:
-    echo "Build Job successful"
+    
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Run Build 
+        run: echo "Build Job successful"
