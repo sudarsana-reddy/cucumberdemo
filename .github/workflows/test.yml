@@ -1,0 +1,8 @@
+name: Maven Package
+
+on: [workflow_dispatch]
+  
+
+jobs:
+  build:
+    echo "Build Job successful"
